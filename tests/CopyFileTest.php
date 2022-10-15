@@ -1,9 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
+use PHPUnit\Framework\TestCase;
 use \SlowProg\CopyFile\ScriptHandler;
 use \org\bovigo\vfs\vfsStream;
 
-class CopyFileTest extends TestCase
+final class CopyFileTest extends TestCase
 {
     use \phpmock\phpunit\PHPMock;
 
