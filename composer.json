@@ -1,25 +1,29 @@
 {
-    "name": "slowprog/composer-copy-file",
+    "name": "hotwebmatter/composer-copy-file",
     "description": "Composer script copying your files after install",
     "keywords": ["copy file"],
-    "homepage": "https://github.com/SlowProg/composer-copy-file",
+    "homepage": "https://github.com/hotwebmatter/composer-copy-file",
     "license": "MIT",
     "authors": [
         {
             "name": "Andrey Tyshev",
             "email": "slowprog@gmail.com"
+        },
+        {
+            "name": "Matthew Obert",
+            "email": "github@hotwebmatter.com"
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=8.0"
     },
     "require-dev": {
-        "composer/composer": "1.0.*@dev",
-        "symfony/filesystem": "~2.7",
-        "symfony/finder": "~2.7",
-        "phpunit/phpunit": "5.7.27",
-        "mikey179/vfsstream": "~1",
-        "php-mock/php-mock-phpunit": "~1"
+        "composer/composer": "^2.2.5",
+        "mikey179/vfsstream": "^1",
+        "php-mock/php-mock-phpunit": "^2.6",
+        "phpunit/phpunit": "^9.5",
+        "symfony/finder": "^4.4",
+        "symfony/filesystem": "^4.4"
     },
     "autoload": {
         "psr-4": { "SlowProg\\CopyFile\\": "" }
